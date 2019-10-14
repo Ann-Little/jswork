@@ -1,4 +1,4 @@
-var r = prompt('请输入元的半径')
+var r = prompt('请输入圆的半径')
 r = parseFloat(r)&&Number(r)
 if (!isNaN(r)){
     var cir = 2 * Math.PI * r
