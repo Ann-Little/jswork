@@ -10,6 +10,7 @@ function sort(method) {
     }else if (method=='insert'){
         //调用insetSort()插入排序函数获取排序结果
         logs = insertSort(origin)
+               insertSort
     }
     //获取显示冒泡排序的div
     showDiv = document.getElementById('Anim')
