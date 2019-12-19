@@ -47,7 +47,7 @@ function getRegMsg(name, tips) {
     return {'reg': reg,'msg': msg};
 }
 function success(obj, msg) {
-    obj.classNmae = 'success';
+    obj.className = 'success';
     obj.innerHTML =msg;
 }
 function error(obj, msg) {
